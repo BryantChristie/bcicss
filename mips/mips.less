@@ -3,8 +3,8 @@
 
 .mip-wrapper {
     // add the default user agent stylesheet from chrome to override outer styles with defaults
-    .user-agent-stylesheet();
-    
+    .user-agent-stylesheet() !important;
+
     // There is no default heading color so set all heading color to black
     .h-loop (@i) when (@i > 0) {
         h@{i} {
