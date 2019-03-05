@@ -1,0 +1,21 @@
+.mip-print() {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    h1 {
+        color: red;
+    }
+    
+    #panel-print-area {
+        size: auto;
+    
+        .btn-legend {
+            display: none;
+        }
+    }
+    
+    @page {
+        size: auto;
+    }
+}

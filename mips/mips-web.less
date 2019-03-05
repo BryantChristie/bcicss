@@ -1,0 +1,13 @@
+.mip-web() {
+    // There is no default heading color so set all heading color to black
+    .h-loop (@i) when (@i > 0) {
+        h@{i} {
+            color: @headingColor;
+            // font-weight: 300 !important;
+        }
+
+        .h-loop(@i - 1);
+    }
+
+    .h-loop(6);
+}
