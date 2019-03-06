@@ -10,23 +10,5 @@
 }
 
 @media print {
-    body {
-        -webkit-print-color-adjust: exact;
-    }
-
-    #panel-print-area {
-        size: auto;
-    }
-
-    .btn-legend {
-        display: none;
-    }
-
-    h1 {
-        color: red !important;
-    }
-
-    @page {
-        size: auto;
-    }
+    .mip-print() !important;
 }
