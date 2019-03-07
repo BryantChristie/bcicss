@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "less": "lessc ./mips/mips.less ./mips/mips.css  --clean-css=\"--s1 --advanced --compatibility=ie8\""
+    "less": "lessc ./mips/mips.less ./mips/mips.css  --clean-css=\"--s1 --advanced --compatibility=ie8\"  --autoprefix=\"> .5%, last 2 versions\""
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,8 @@
   "homepage": "https://bitbucket.org/bryantchristie/bcicss#readme",
   "devDependencies": {
     "less": "^3.9.0",
+    "less-plugin-autoprefix": "^2.0.0",
     "less-plugin-clean-css": "^1.5.1"
-  }
+  },
+  "dependencies": {}
 }
