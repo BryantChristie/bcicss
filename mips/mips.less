@@ -10,5 +10,8 @@
 }
 
 @media print {
-    .mip-print() !important;
+    // add the default user agent stylesheet from chrome to override outer styles with defaults
+    .user-agent-stylesheet();
+    .mip-web();
+    .mip-print();
 }
