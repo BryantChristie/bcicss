@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "less": "lessc ./mips/mips.less ./mips/mips.css  --clean-css=\"--s1 --advanced --compatibility=ie8\"  --autoprefix=\"> .5%, last 2 versions\""
+    "less": "lessc ./mips/mips.less ./mips/mips.css  --clean-css=\"--s1 --advanced --compatibility=ie8\"  --autoprefix=\"> .5%, last 2 versions\"",
+    "sass": "sass ./mips/mips.scss ./mips/mips.css",
+    "http-server": "http-server -p 5000"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,8 @@
   "devDependencies": {
     "less": "^3.9.0",
     "less-plugin-autoprefix": "^2.0.0",
-    "less-plugin-clean-css": "^1.5.1"
+    "less-plugin-clean-css": "^1.5.1",
+    "sass": "^1.17.2"
   },
   "dependencies": {}
 }

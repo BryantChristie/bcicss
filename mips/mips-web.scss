@@ -1,0 +1,29 @@
+@import './mips-variables.scss';
+
+@mixin mips-web {
+    body {
+        font-family: 'Roboto', sans-serif;
+
+        p {
+            margin-bottom: 1rem !important;
+        }
+    }
+
+    %inline-header {
+        display: inline;
+    }
+
+    %header-base {
+        color: $headingColor;
+    }
+
+    @for $i from 1 through 6 {
+        h#{$i} {
+            @extend %header-base;
+        }
+
+        .inline-h#{$i} {
+            @extend h#{$i}, %inline-header;
+        }
+    }
+}

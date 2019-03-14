@@ -1,4 +1,4 @@
-.mip-print() {
+@mixin mips-print() {
     body {
         -webkit-print-color-adjust: exact;
     }
