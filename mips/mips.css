@@ -72,10 +72,6 @@
 }
 .mip-wrapper p {
   display: block !important;
-  -webkit-margin-before: 1__qem !important;
-  -webkit-margin-after: 1__qem !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
 }
 .mip-wrapper div {
   display: block !important;
@@ -101,20 +97,12 @@
 }
 .mip-wrapper blockquote {
   display: block !important;
-  -webkit-margin-before: 1__qem !important;
-  -webkit-margin-after: 1em !important;
-  -webkit-margin-start: 40px !important;
-  -webkit-margin-end: 40px !important;
 }
 .mip-wrapper figcaption {
   display: block !important;
 }
 .mip-wrapper figure {
   display: block !important;
-  -webkit-margin-before: 1em !important;
-  -webkit-margin-after: 1em !important;
-  -webkit-margin-start: 40px !important;
-  -webkit-margin-end: 40px !important;
 }
 .mip-wrapper q {
   display: inline !important;
@@ -132,10 +120,6 @@
 }
 .mip-wrapper hr {
   display: block !important;
-  -webkit-margin-before: 0.5em !important;
-  -webkit-margin-after: 0.5em !important;
-  -webkit-margin-start: auto !important;
-  -webkit-margin-end: auto !important;
   border-style: inset !important;
   border-width: 1px !important;
 }
@@ -146,81 +130,47 @@
   object-fit: contain !important;
 }
 .mip-wrapper h1, .mip-wrapper .inline-h1 {
-  display: block !important;
+  display: block;
   font-size: 2em !important;
-  -webkit-margin-before: 0.67__qem !important;
-  -webkit-margin-after: 0.67em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
   font-weight: bold !important;
 }
 .mip-wrapper :-webkit-any(article, aside, nav, section) h1, .mip-wrapper :-webkit-any(article, aside, nav, section) .inline-h1 {
   font-size: 1.5em !important;
-  -webkit-margin-before: 0.83__qem !important;
-  -webkit-margin-after: 0.83em !important;
 }
 .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
   font-size: 1.17em !important;
-  -webkit-margin-before: 1__qem !important;
-  -webkit-margin-after: 1em !important;
 }
 .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
   font-size: 1em !important;
-  -webkit-margin-before: 1.33__qem !important;
-  -webkit-margin-after: 1.33em !important;
 }
 .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
   font-size: 0.83em !important;
-  -webkit-margin-before: 1.67__qem !important;
-  -webkit-margin-after: 1.67em !important;
 }
 .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, .mip-wrapper :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
   font-size: 0.67em !important;
-  -webkit-margin-before: 2.33__qem !important;
-  -webkit-margin-after: 2.33em !important;
 }
 .mip-wrapper h2, .mip-wrapper .inline-h2 {
-  display: block !important;
+  display: block;
   font-size: 1.5em !important;
-  -webkit-margin-before: 0.83__qem !important;
-  -webkit-margin-after: 0.83em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
   font-weight: bold;
 }
 .mip-wrapper h3, .mip-wrapper .inline-h3 {
-  display: block !important;
+  display: block;
   font-size: 1.17em !important;
-  -webkit-margin-before: 1__qem !important;
-  -webkit-margin-after: 1em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
   font-weight: bold;
 }
 .mip-wrapper h4, .mip-wrapper .inline-h4 {
-  display: block !important;
-  -webkit-margin-before: 1.33__qem !important;
-  -webkit-margin-after: 1.33em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
+  display: block;
   font-weight: bold;
 }
 .mip-wrapper h5, .mip-wrapper .inline-h5 {
-  display: block !important;
+  display: block;
   font-size: 0.83em !important;
-  -webkit-margin-before: 1.67__qem !important;
-  -webkit-margin-after: 1.67em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
   font-weight: bold;
 }
 .mip-wrapper h6, .mip-wrapper .inline-h6 {
-  display: block !important;
+  display: block;
   font-size: 0.67em !important;
-  -webkit-margin-before: 2.33__qem !important;
-  -webkit-margin-after: 2.33em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
   font-weight: bold;
 }
 .mip-wrapper table {
@@ -275,19 +225,11 @@
 .mip-wrapper dir {
   display: block !important;
   list-style-type: disc !important;
-  -webkit-margin-before: 1__qem !important;
-  -webkit-margin-after: 1em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
   -webkit-padding-start: 40px !important;
 }
 .mip-wrapper ol {
   display: block !important;
   list-style-type: decimal !important;
-  -webkit-margin-before: 1__qem !important;
-  -webkit-margin-after: 1em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
   -webkit-padding-start: 40px !important;
 }
 .mip-wrapper li {
@@ -306,24 +248,12 @@
 }
 .mip-wrapper dd {
   display: block !important;
-  -webkit-margin-start: 40px !important;
 }
 .mip-wrapper dl {
   display: block !important;
-  -webkit-margin-before: 1__qem !important;
-  -webkit-margin-after: 1em !important;
-  -webkit-margin-start: 0 !important;
-  -webkit-margin-end: 0 !important;
 }
 .mip-wrapper dt {
   display: block !important;
-}
-.mip-wrapper ol ul,
-.mip-wrapper ul ol,
-.mip-wrapper ul ul,
-.mip-wrapper ol ol {
-  -webkit-margin-before: 0 !important;
-  -webkit-margin-after: 0 !important;
 }
 .mip-wrapper form {
   display: block !important;
@@ -340,8 +270,6 @@
 }
 .mip-wrapper fieldset {
   display: block !important;
-  -webkit-margin-start: 2px !important;
-  -webkit-margin-end: 2px !important;
   -webkit-padding-before: 0.35em !important;
   -webkit-padding-start: 0.75em !important;
   -webkit-padding-end: 0.75em !important;
@@ -410,7 +338,6 @@
   display: inline-block !important;
   flex: none !important;
   -webkit-user-modify: read-only !important;
-  -webkit-margin-start: 2px !important;
   opacity: 0 !important;
   pointer-events: none !important;
 }
@@ -423,7 +350,6 @@
   display: block !important;
   flex: none !important;
   -webkit-user-modify: read-only !important;
-  -webkit-margin-start: 1px !important;
   opacity: 0 !important;
   pointer-events: none !important;
 }
@@ -969,7 +895,6 @@
   display: inline-block !important;
   width: 0.66em !important;
   height: 0.66em !important;
-  -webkit-margin-end: 0.4em !important;
 }
 .mip-wrapper template {
   display: none !important;
@@ -1024,19 +949,25 @@
 .mip-wrapper body {
   font-family: "Roboto", sans-serif;
 }
-.mip-wrapper body p {
-  margin-bottom: 1rem !important;
-}
 .mip-wrapper .inline-h1, .mip-wrapper .inline-h2, .mip-wrapper .inline-h3, .mip-wrapper .inline-h4, .mip-wrapper .inline-h5, .mip-wrapper .inline-h6 {
   display: inline;
 }
 .mip-wrapper h1, .mip-wrapper .inline-h1, .mip-wrapper h2, .mip-wrapper .inline-h2, .mip-wrapper h3, .mip-wrapper .inline-h3, .mip-wrapper h4, .mip-wrapper .inline-h4, .mip-wrapper h5, .mip-wrapper .inline-h5, .mip-wrapper h6, .mip-wrapper .inline-h6 {
   color: #477691;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   font-weight: 400 !important;
 }
 .mip-wrapper h1, .mip-wrapper .inline-h1 {
-  font-weight: initial;
+  font-weight: 700;
+}
+.mip-wrapper h4, .mip-wrapper .inline-h4 {
+  font-size: 1rem;
+}
+.mip-wrapper p {
+  margin: 0 0 1rem 30px;
+}
+.mip-wrapper a {
+  cursor: pointer;
 }
 
 @media print {
@@ -1104,10 +1035,6 @@
 
   p {
     display: block !important;
-    -webkit-margin-before: 1__qem !important;
-    -webkit-margin-after: 1__qem !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
   }
 
   div {
@@ -1139,10 +1066,6 @@ section {
 
   blockquote {
     display: block !important;
-    -webkit-margin-before: 1__qem !important;
-    -webkit-margin-after: 1em !important;
-    -webkit-margin-start: 40px !important;
-    -webkit-margin-end: 40px !important;
   }
 
   figcaption {
@@ -1151,10 +1074,6 @@ section {
 
   figure {
     display: block !important;
-    -webkit-margin-before: 1em !important;
-    -webkit-margin-after: 1em !important;
-    -webkit-margin-start: 40px !important;
-    -webkit-margin-end: 40px !important;
   }
 
   q {
@@ -1177,10 +1096,6 @@ section {
 
   hr {
     display: block !important;
-    -webkit-margin-before: 0.5em !important;
-    -webkit-margin-after: 0.5em !important;
-    -webkit-margin-start: auto !important;
-    -webkit-margin-end: auto !important;
     border-style: inset !important;
     border-width: 1px !important;
   }
@@ -1195,91 +1110,57 @@ section {
 
   /* heading elements */
   h1, .inline-h1 {
-    display: block !important;
+    display: block;
     font-size: 2em !important;
-    -webkit-margin-before: 0.67__qem !important;
-    -webkit-margin-after: 0.67em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
     font-weight: bold !important;
   }
 
   :-webkit-any(article, aside, nav, section) h1, :-webkit-any(article, aside, nav, section) .inline-h1 {
     font-size: 1.5em !important;
-    -webkit-margin-before: 0.83__qem !important;
-    -webkit-margin-after: 0.83em !important;
   }
 
   :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
     font-size: 1.17em !important;
-    -webkit-margin-before: 1__qem !important;
-    -webkit-margin-after: 1em !important;
   }
 
   :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
     font-size: 1em !important;
-    -webkit-margin-before: 1.33__qem !important;
-    -webkit-margin-after: 1.33em !important;
   }
 
   :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
     font-size: 0.83em !important;
-    -webkit-margin-before: 1.67__qem !important;
-    -webkit-margin-after: 1.67em !important;
   }
 
   :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1, :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) .inline-h1 {
     font-size: 0.67em !important;
-    -webkit-margin-before: 2.33__qem !important;
-    -webkit-margin-after: 2.33em !important;
   }
 
   h2, .inline-h2 {
-    display: block !important;
+    display: block;
     font-size: 1.5em !important;
-    -webkit-margin-before: 0.83__qem !important;
-    -webkit-margin-after: 0.83em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
     font-weight: bold;
   }
 
   h3, .inline-h3 {
-    display: block !important;
+    display: block;
     font-size: 1.17em !important;
-    -webkit-margin-before: 1__qem !important;
-    -webkit-margin-after: 1em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
     font-weight: bold;
   }
 
   h4, .inline-h4 {
-    display: block !important;
-    -webkit-margin-before: 1.33__qem !important;
-    -webkit-margin-after: 1.33em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
+    display: block;
     font-weight: bold;
   }
 
   h5, .inline-h5 {
-    display: block !important;
+    display: block;
     font-size: 0.83em !important;
-    -webkit-margin-before: 1.67__qem !important;
-    -webkit-margin-after: 1.67em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
     font-weight: bold;
   }
 
   h6, .inline-h6 {
-    display: block !important;
+    display: block;
     font-size: 0.67em !important;
-    -webkit-margin-before: 2.33__qem !important;
-    -webkit-margin-after: 2.33em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
     font-weight: bold;
   }
 
@@ -1349,20 +1230,12 @@ menu,
 dir {
     display: block !important;
     list-style-type: disc !important;
-    -webkit-margin-before: 1__qem !important;
-    -webkit-margin-after: 1em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
     -webkit-padding-start: 40px !important;
   }
 
   ol {
     display: block !important;
     list-style-type: decimal !important;
-    -webkit-margin-before: 1__qem !important;
-    -webkit-margin-after: 1em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
     -webkit-padding-start: 40px !important;
   }
 
@@ -1385,27 +1258,14 @@ ul ul ul {
 
   dd {
     display: block !important;
-    -webkit-margin-start: 40px !important;
   }
 
   dl {
     display: block !important;
-    -webkit-margin-before: 1__qem !important;
-    -webkit-margin-after: 1em !important;
-    -webkit-margin-start: 0 !important;
-    -webkit-margin-end: 0 !important;
   }
 
   dt {
     display: block !important;
-  }
-
-  ol ul,
-ul ol,
-ul ul,
-ol ol {
-    -webkit-margin-before: 0 !important;
-    -webkit-margin-after: 0 !important;
   }
 
   /* form elements */
@@ -1427,8 +1287,6 @@ ol ol {
 
   fieldset {
     display: block !important;
-    -webkit-margin-start: 2px !important;
-    -webkit-margin-end: 2px !important;
     -webkit-padding-before: 0.35em !important;
     -webkit-padding-start: 0.75em !important;
     -webkit-padding-end: 0.75em !important;
@@ -1507,7 +1365,6 @@ button {
     display: inline-block !important;
     flex: none !important;
     -webkit-user-modify: read-only !important;
-    -webkit-margin-start: 2px !important;
     opacity: 0 !important;
     pointer-events: none !important;
   }
@@ -1522,7 +1379,6 @@ button {
     display: block !important;
     flex: none !important;
     -webkit-user-modify: read-only !important;
-    -webkit-margin-start: 1px !important;
     opacity: 0 !important;
     pointer-events: none !important;
   }
@@ -2168,7 +2024,6 @@ frame {
     display: inline-block !important;
     width: 0.66em !important;
     height: 0.66em !important;
-    -webkit-margin-end: 0.4em !important;
   }
 
   template {
@@ -2234,9 +2089,6 @@ output {
   body {
     font-family: "Roboto", sans-serif;
   }
-  body p {
-    margin-bottom: 1rem !important;
-  }
 }
 @media print {
   .inline-h1, .inline-h2, .inline-h3, .inline-h4, .inline-h5, .inline-h6 {
@@ -2246,13 +2098,28 @@ output {
 @media print {
   h1, .inline-h1, h2, .inline-h2, h3, .inline-h3, h4, .inline-h4, h5, .inline-h5, h6, .inline-h6 {
     color: #477691;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     font-weight: 400 !important;
   }
 }
 @media print {
   h1, .inline-h1 {
-    font-weight: initial;
+    font-weight: 700;
+  }
+}
+@media print {
+  h4, .inline-h4 {
+    font-size: 1rem;
+  }
+}
+@media print {
+  p {
+    margin: 0 0 1rem 30px;
+  }
+}
+@media print {
+  a {
+    cursor: pointer;
   }
 }
 @media print {

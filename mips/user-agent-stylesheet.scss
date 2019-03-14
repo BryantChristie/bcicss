@@ -62,10 +62,6 @@
 
     p {
         display: block !important;
-        -webkit-margin-before: 1__qem !important;
-        -webkit-margin-after: 1__qem !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
     }
 
     div {
@@ -97,10 +93,6 @@
 
     blockquote {
         display: block !important;
-        -webkit-margin-before: 1__qem !important;
-        -webkit-margin-after: 1em !important;
-        -webkit-margin-start: 40px !important;
-        -webkit-margin-end: 40px !important;
     }
 
     figcaption {
@@ -109,10 +101,6 @@
 
     figure {
         display: block !important;
-        -webkit-margin-before: 1em !important;
-        -webkit-margin-after: 1em !important;
-        -webkit-margin-start: 40px !important;
-        -webkit-margin-end: 40px !important;
     }
 
     q {
@@ -135,10 +123,6 @@
 
     hr {
         display: block !important;
-        -webkit-margin-before: .5em !important;
-        -webkit-margin-after: .5em !important;
-        -webkit-margin-start: auto !important;
-        -webkit-margin-end: auto !important;
         border-style: inset !important;
         border-width: 1px !important;
     }
@@ -152,27 +136,19 @@
     }
     /* heading elements */
     h1 {
-        display: block !important;
+        display: block;
         font-size: 2em !important;
-        -webkit-margin-before: .67__qem !important;
-        -webkit-margin-after: .67em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
         font-weight: bold !important;
     }
 
     :-webkit-any(article, aside, nav, section) h1 {
         font-size: 1.5em !important;
-        -webkit-margin-before: .83__qem !important;
-        -webkit-margin-after: .83em !important;
     }
 
     :-webkit-any(article, aside, nav, section)
     :-webkit-any(article, aside, nav, section)
     h1 {
         font-size: 1.17em !important;
-        -webkit-margin-before: 1__qem !important;
-        -webkit-margin-after: 1em !important;
     }
 
     :-webkit-any(article, aside, nav, section)
@@ -180,8 +156,6 @@
     :-webkit-any(article, aside, nav, section)
     h1 {
         font-size: 1em !important;
-        -webkit-margin-before: 1.33__qem !important;
-        -webkit-margin-after: 1.33em !important;
     }
 
     :-webkit-any(article, aside, nav, section)
@@ -190,8 +164,6 @@
     :-webkit-any(article, aside, nav, section)
     h1 {
         font-size: .83em !important;
-        -webkit-margin-before: 1.67__qem !important;
-        -webkit-margin-after: 1.67em !important;
     }
 
     :-webkit-any(article, aside, nav, section)
@@ -201,56 +173,34 @@
     :-webkit-any(article, aside, nav, section)
     h1 {
         font-size: .67em !important;
-        -webkit-margin-before: 2.33__qem !important;
-        -webkit-margin-after: 2.33em !important;
     }
 
     h2 {
-        display: block !important;
+        display: block;
         font-size: 1.5em !important;
-        -webkit-margin-before: .83__qem !important;
-        -webkit-margin-after: .83em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
         font-weight: bold;
     }
 
     h3 {
-        display: block !important;
+        display: block;
         font-size: 1.17em !important;
-        -webkit-margin-before: 1__qem !important;
-        -webkit-margin-after: 1em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
         font-weight: bold;
     }
 
     h4 {
-        display: block !important;
-        -webkit-margin-before: 1.33__qem !important;
-        -webkit-margin-after: 1.33em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
+        display: block;
         font-weight: bold;
     }
 
     h5 {
-        display: block !important;
+        display: block;
         font-size: .83em !important;
-        -webkit-margin-before: 1.67__qem !important;
-        -webkit-margin-after: 1.67em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
         font-weight: bold;
     }
 
     h6 {
-        display: block !important;
+        display: block;
         font-size: .67em !important;
-        -webkit-margin-before: 2.33__qem !important;
-        -webkit-margin-after: 2.33em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
         font-weight: bold;
     }
     /* tables */
@@ -317,20 +267,12 @@
     dir {
         display: block !important;
         list-style-type: disc !important;
-        -webkit-margin-before: 1__qem !important;
-        -webkit-margin-after: 1em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
         -webkit-padding-start: 40px !important;
     }
 
     ol {
         display: block !important;
         list-style-type: decimal !important;
-        -webkit-margin-before: 1__qem !important;
-        -webkit-margin-after: 1em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
         -webkit-padding-start: 40px !important;
     }
 
@@ -353,15 +295,10 @@
 
     dd {
         display: block !important;
-        -webkit-margin-start: 40px !important;
     }
 
     dl {
         display: block !important;
-        -webkit-margin-before: 1__qem !important;
-        -webkit-margin-after: 1em !important;
-        -webkit-margin-start: 0 !important;
-        -webkit-margin-end: 0 !important;
     }
 
     dt {
@@ -372,8 +309,6 @@
     ul ol,
     ul ul,
     ol ol {
-        -webkit-margin-before: 0 !important;
-        -webkit-margin-after: 0 !important;
     }
     /* form elements */
     form {
@@ -394,8 +329,6 @@
 
     fieldset {
         display: block !important;
-        -webkit-margin-start: 2px !important;
-        -webkit-margin-end: 2px !important;
         -webkit-padding-before: .35em !important;
         -webkit-padding-start: .75em !important;
         -webkit-padding-end: .75em !important;
@@ -472,7 +405,6 @@
         display: inline-block !important;
         flex: none !important;
         -webkit-user-modify: read-only !important;
-        -webkit-margin-start: 2px !important;
         opacity: 0 !important;
         pointer-events: none !important;
     }
@@ -487,7 +419,6 @@
         display: block !important;
         flex: none !important;
         -webkit-user-modify: read-only !important;
-        -webkit-margin-start: 1px !important;
         opacity: 0 !important;
         pointer-events: none !important;
     }
@@ -1152,7 +1083,6 @@
         display: inline-block !important;
         width: .66em !important;
         height: .66em !important;
-        -webkit-margin-end: .4em !important;
     }
 
     template {
