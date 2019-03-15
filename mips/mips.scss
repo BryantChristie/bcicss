@@ -12,10 +12,3 @@
     @include mips-web;
     @include mips-print;
 }
-
-@media print {
-    h5 {
-        font-size: 600px;
-    }
-
-}
