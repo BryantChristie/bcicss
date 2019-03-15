@@ -1,7 +1,7 @@
 @mixin mips-print() {
     body {
         -webkit-print-color-adjust: exact;
-        background: transparent;
+        background: transparent !important;
     }
 
     #panel-print-area {
@@ -13,6 +13,6 @@
     }
 
     .legend-body {
-        background-color: transparent;
+        background-color: transparent !important;
     }
 }
