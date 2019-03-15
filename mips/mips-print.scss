@@ -1,6 +1,7 @@
 @mixin mips-print() {
     body {
         -webkit-print-color-adjust: exact;
+        background: transparent;
     }
 
     #panel-print-area {
