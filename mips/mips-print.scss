@@ -1,7 +1,9 @@
+@import "./mips-variables.scss";
+
 @mixin mips-print() {
     body {
         -webkit-print-color-adjust: exact;
-        background: transparent !important;
+        background: $white !important;
     }
 
     #panel-print-area {
@@ -13,6 +15,6 @@
     }
 
     .legend-body {
-        background-color: transparent !important;
+        background-color: $white !important;
     }
 }
