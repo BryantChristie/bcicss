@@ -20,6 +20,7 @@
     }
 }
 
+// Quick fixes for BCGlobal release
 .navlinks {
     .no-access {
         a {
@@ -34,3 +35,14 @@
         }
     }
 }
+
+.form-row.container-fluid {
+    & > .row {
+        & > .col-xl-8.col-12 {
+            p.text-right.mr-5 {
+                display: none;
+            }
+        }
+    }
+}
+//////////////////////////////////////
