@@ -1,5 +1,5 @@
 @import './user-agent-stylesheet.scss';
-@import'./mips-web.scss';
+@import './mips-web.scss';
 @import './mips-print.scss';
 
 .mip-wrapper {
@@ -17,5 +17,20 @@
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .print-button {
         display: none !important;
+    }
+}
+
+.navlinks {
+    .no-access {
+        a {
+            &:focus,
+            &:active {
+                text-decoration: none;
+            }
+
+            &:active {
+                pointer-events: none;
+            }
+        }
     }
 }
