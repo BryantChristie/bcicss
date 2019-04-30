@@ -1,6 +1,10 @@
 @import './mips-variables.scss';
 
 @mixin mips-web {
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+    
     body {
         font-family: 'Roboto', sans-serif;
     }
