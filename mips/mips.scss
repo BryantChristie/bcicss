@@ -15,6 +15,9 @@
 
 // IE specific styles
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .print-button {
+        display: none !important;
+    }
 }
 
 // Quick fixes for BCGlobal release
