@@ -405,7 +405,6 @@
 
     input:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-clear-button {
         opacity: 1 !important;
-        pointer-events: auto !important;
     }
 
     input[type="search"]::-webkit-search-cancel-button {
@@ -419,7 +418,6 @@
 
     input[type="search"]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-search-cancel-button {
         opacity: 1 !important;
-        pointer-events: auto !important;
     }
 
     input[type="search"]::-webkit-search-decoration {
@@ -454,7 +452,6 @@
 
     input:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-inner-spin-button {
         opacity: 1 !important;
-        pointer-events: auto !important;
     }
 
     keygen,
@@ -709,7 +706,6 @@
     input:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-calendar-picker-indicator,
     input::-webkit-calendar-picker-indicator:focus {
         opacity: 1 !important;
-        pointer-events: auto !important;
     }
 
     input[type="date"]:disabled::-webkit-clear-button,
