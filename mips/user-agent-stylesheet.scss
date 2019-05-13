@@ -255,55 +255,6 @@
         display: table-caption !important;
         text-align: -webkit-center !important;
     }
-    /* lists */
-    ul,
-    menu,
-    dir {
-        display: block !important;
-        list-style-type: disc !important;
-        -webkit-padding-start: 40px !important;
-    }
-
-    ol {
-        display: block !important;
-        list-style-type: decimal !important;
-        -webkit-padding-start: 40px !important;
-    }
-
-    li {
-        display: list-item !important;
-        text-align: -webkit-match-parent !important;
-    }
-
-    ul ul,
-    ol ul {
-        list-style-type: circle !important;
-    }
-
-    ol ol ul,
-    ol ul ul,
-    ul ol ul,
-    ul ul ul {
-        list-style-type: square !important;
-    }
-
-    dd {
-        display: block !important;
-    }
-
-    dl {
-        display: block !important;
-    }
-
-    dt {
-        display: block !important;
-    }
-
-    ol ul,
-    ul ol,
-    ul ul,
-    ol ol {
-    }
     /* form elements */
     form {
         display: block !important;
