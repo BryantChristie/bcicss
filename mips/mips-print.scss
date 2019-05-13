@@ -1,5 +1,4 @@
 @import "./mips-variables.scss";
-@import "./mips-web.scss";
 
 @mixin mips-print() {
     body {
@@ -19,7 +18,15 @@
         background-color: $white !important;
     }
 
-    .mip-wrapper {
-        @include mips-web;
+    ul {
+        li {
+            list-style-type: disc;
+        }
+    }
+
+    ol {
+        li {
+            list-style-type: decimal;
+        }
     }
 }

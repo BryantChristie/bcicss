@@ -9,7 +9,11 @@
 
 @media print {
     @include user-agent-stylesheet;
-    @include mips-print;
+    @include mips-web;
+    
+    *:not(.moreInfo) {
+        @include mips-print;
+    }
 }
 
 // IE specific styles
