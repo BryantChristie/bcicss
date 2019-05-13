@@ -14,6 +14,13 @@
     #panel-print-area:not(.moreInfo) {
         @include mips-web;
     }
+
+    .moreInfo {
+        h5 {
+            font-size: 16pt;
+            margin: 8px 0 16px;
+        }
+    }
 }
 
 // IE specific styles
