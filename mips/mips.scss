@@ -9,7 +9,6 @@
 
 @media print {
     @include user-agent-stylesheet;
-    @include mips-web;
     @include mips-print;
 }
 
