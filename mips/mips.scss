@@ -15,10 +15,15 @@
         @include mips-web;
     }
 
-    .moreInfo {
+    .mrlitem {
         h5 {
             font-size: 16pt;
             margin: 8px 0 16px;
+        }
+
+        h6 {
+            font-size: 11pt;
+            font-weight: 700;
         }
     }
 }
