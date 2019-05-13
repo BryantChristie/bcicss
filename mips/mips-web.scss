@@ -35,6 +35,18 @@
     a {
         cursor: pointer;
     }
+    
+    ul {
+        li {
+            list-style-type: disc;
+        }
+    }
+
+    ol {
+        li {
+            list-style-type: decimal;
+        }
+    }
 
     .market-details-flag {
         img {
@@ -51,28 +63,15 @@
         display: inline;
         font-style: italic;
     }
-}
-
-@for $i from 1 through 6 {
-    h#{$i} {
-        @at-root (without: media) {& { @extend %header-base}}
-    }
-
-    .inline-h#{$i} {
-        @at-root (without: media) {& { @extend h#{$i}, %inline-header}}
-    }
-}
-
-
-ul {
-    li {
-        list-style-type: disc;
-    }
-}
-
-ol {
-    li {
-        list-style-type: decimal;
+    
+    @for $i from 1 through 6 {
+        h#{$i} {
+            @at-root (without: media) {& { @extend %header-base}}
+        }
+    
+        .inline-h#{$i} {
+            @at-root (without: media) {& { @extend h#{$i}, %inline-header}}
+        }
     }
 }
 

@@ -11,7 +11,7 @@
     @include user-agent-stylesheet;
     @include mips-print;
     
-    *:not(.moreInfo) {
+    #panel-print-area:not(.moreInfo) {
         @include mips-web;
     }
 }
