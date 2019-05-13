@@ -63,14 +63,16 @@
     }
 }
 
-ul {
-    li {
-        list-style-type: disc;
+.mip-wrapper {
+    ul {
+        li {
+            list-style-type: disc;
+        }
     }
-}
 
-ol {
-    li {
-        list-style-type: decimal;
+    ol {
+        li {
+            list-style-type: decimal;
+        }
     }
 }
