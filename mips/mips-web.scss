@@ -62,3 +62,15 @@
         @at-root (without: media) {& { @extend h#{$i}, %inline-header}}
     }
 }
+
+ul {
+    li {
+        list-style-type: disc;
+    }
+}
+
+ol {
+    li {
+        list-style-type: decimal;
+    }
+}
