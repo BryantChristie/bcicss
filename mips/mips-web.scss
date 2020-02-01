@@ -63,7 +63,6 @@
         display: inline;
         font-style: italic;
     }
-    
     ul, ol {
         display: block;
         padding-left: unset;
@@ -82,15 +81,15 @@
     ol {
         list-style-type: decimal;
     }
-    
-    @for $i from 1 through 6 {
-        h#{$i} {
-            @at-root (without: media) {& { @extend %header-base}}
-        }
-    
-        .inline-h#{$i} {
-            @at-root (without: media) {& { @extend h#{$i}, %inline-header}}
-        }
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        @at-root (without: media) {& { @extend %header-base}}
+    }
+
+    .inline-h#{$i} {
+        @at-root (without: media) {& { @extend h#{$i}, %inline-header}}
     }
 }
 
