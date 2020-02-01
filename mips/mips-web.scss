@@ -63,15 +63,34 @@
         display: inline;
         font-style: italic;
     }
-    
-    @for $i from 1 through 6 {
-        h#{$i} {
-            @at-root (without: media) {& { @extend %header-base}}
-        }
-    
-        .inline-h#{$i} {
-            @at-root (without: media) {& { @extend h#{$i}, %inline-header}}
-        }
+
+    ul, ol {
+        display: block;
+        padding-left: unset;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        padding-left: 40px;
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+}
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        @at-root (without: media) {& { @extend %header-base}}
+    }
+
+    .inline-h#{$i} {
+        @at-root (without: media) {& { @extend h#{$i}, %inline-header}}
     }
 }
 
