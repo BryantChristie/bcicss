@@ -57,10 +57,10 @@
         margin-inline-end: 0px;
         padding-inline-start: 40px;
         padding-left: 40px;
+    }
 
-        &:not(li) > ul > li {
-            margin-left: 80px;
-        }
+    :not(li) > ul > li {
+        margin-left: 40px;
     }
 
     .market-details-flag {
