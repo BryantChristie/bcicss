@@ -2,18 +2,18 @@
 
 @mixin mips-web {
     * {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
-    
+
     body {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Open Sans', sans-serif;
     }
 
 
     %inline-header {
         display: inline;
     }
-    
+
     %header-base {
         color: $headingColor;
         margin-bottom: 1rem;
@@ -35,7 +35,7 @@
     a {
         cursor: pointer;
     }
-    
+
     ul {
         li {
             list-style-type: disc;
